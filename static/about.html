@@ -1,11 +1,12 @@
-<Docktype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>About</title>
+        <title>About ShopEasy</title>
         <style>
             body {
                 margin: 0;
                 padding: 0;
+                font-family: Arial, sans-serif;
             }
 
             header {
@@ -32,10 +33,30 @@
 
             main {
                 padding: 20px;
+                max-width: 800px;
+                margin: 0 auto;
             }
 
             section {
-                margin-bottom: 20px;
+                margin-bottom: 30px;
+            }
+
+            .about-content {
+                line-height: 1.6;
+            }
+
+            .values {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                margin-top: 20px;
+            }
+
+            .value-card {
+                background-color: #f4f4f4;
+                padding: 20px;
+                border-radius: 5px;
+                text-align: center;
             }
 
             footer {
@@ -56,35 +77,52 @@
                     <li><a href="home">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="contact">Contact</a></li>
-                    <li><a href="courses">Courses</a></li>
+                    <li><a href="courses">Products</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section>
-                <h1>About the Author</h1>
-                <p>Hi Everyone, My name is Abhishek and welcome to my channel :)</p>
+                <h1>About ShopEasy</h1>
+                <div class="about-content">
+                    <p>Welcome to ShopEasy, your premier destination for online shopping. Founded in 2024, we've grown from a small startup to one of the leading e-commerce platforms, serving customers worldwide.</p>
 
-                    <p>    I am an opensource enthusiast and a great believer in sharing knowledge. </p>
-                        <p>  I have my footprints in popular opensource projects like Argo CD, Argo CD Operator, Argo Rollouts Manager, GitOps Operator, F5 Ingress Controller, Nginx Ingress Controller by Nginx and others. </p>
-                    
-                            <p> Apart from working with Red Hat as a GitOps product lead, I also hold below positions in OpenSource communities</p>
-                                <p>  - Maintainer of Argo CD Operator</p>
-                                    <p> - Creator of Argo Rollouts Manager</p>
-                                        <p> - Maintainer of RedHat Developer (GitOps operator)</p>
-                                            <p> - Member of Argo Project</p>
-                                                <p> - Member of Argo SIG Security</p>
-                    
-                                                    <p> If you want to learn complete devops for free with practical projects, checkout the playlist</p>
-                                                        <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa"> Playlists</a></p>
-                    
-                                                            <p> Please subscribe to the channel to keep learning and growing together. Thanks :)</p>
+                    <p>Our mission is to provide a seamless shopping experience with the best products at competitive prices. We believe in quality, convenience, and customer satisfaction above all else.</p>
+
+                    <h2>Our Values</h2>
+                    <div class="values">
+                        <div class="value-card">
+                            <h3>Quality</h3>
+                            <p>We carefully curate our product selection to ensure the highest standards of quality.</p>
+                        </div>
+                        <div class="value-card">
+                            <h3>Customer First</h3>
+                            <p>Your satisfaction is our top priority. We provide excellent customer service and support.</p>
+                        </div>
+                        <div class="value-card">
+                            <h3>Sustainability</h3>
+                            <p>We're committed to eco-friendly practices and sustainable business operations.</p>
+                        </div>
+                    </div>
+
+                    <h2>Our Team</h2>
+                    <p>Behind ShopEasy is a dedicated team of professionals passionate about delivering the best shopping experience. From our customer service representatives to our logistics experts, everyone works together to ensure your satisfaction.</p>
+
+                    <h2>Our Commitment</h2>
+                    <p>We're committed to:</p>
+                    <ul>
+                        <li>Providing secure and reliable shopping</li>
+                        <li>Offering fast and efficient delivery</li>
+                        <li>Maintaining competitive prices</li>
+                        <li>Ensuring excellent customer support</li>
+                    </ul>
+                </div>
             </section>
         </main>
 
         <footer>
-            <p>&copy; Abhishek.Veeramalla</p>
+            <p>&copy; 2024 ShopEasy. All rights reserved.</p>
         </footer>
     </body>
 </html>
