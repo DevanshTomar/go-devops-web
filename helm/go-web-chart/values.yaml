@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: dtomar1/web-go
   pullPolicy: IfNotPresent
-  tag: "14254522467"
+  tag: "14254543312"
 
 ingress:
   enabled: false
