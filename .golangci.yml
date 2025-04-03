@@ -1,0 +1,36 @@
+version: 1.0
+
+linters:
+  enable:
+    - errcheck
+    - gofmt
+    - goimports
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - unused
+
+run:
+  skip-dirs-use-default: true
+
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - errcheck
+        - dupl
+        - gosec
+        - gocyclo
+        - lll
+        - goconst
+        - gocritic
+        - gochecknoglobals
+        - gochecknoinits
+        - gomnd
+        - testpackage
+        - scopelint
+        - paralleltest
+        - gocognit
+        - wsl 
