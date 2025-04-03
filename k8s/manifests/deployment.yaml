@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: dtomar1/go-web-app
+        image: dtomar1/web-go:v1
         ports:
         - containerPort: 8080
         resources:
