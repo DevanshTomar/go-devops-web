@@ -1,17 +1,14 @@
-# Go Web Application
+# Go DevOps Web
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
+**Go DevOps Web** is a lightweight Golang-based web application showcasing core DevOps and cloud-native practices. It serves static HTML pages, is fully containerized, and integrates automated CI/CD pipelines alongside Kubernetes deployment options.
 
-## Running the server
+## Technologies Used
 
-To run the server, execute the following command:
-
-```bash
-go run main.go
-```
-
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
-
-
+- **Language & Framework**: Go (net/http for routing and serving static content)
+- **Containerization**: Docker (multi-stage builds, distroless runtime)
+- **Continuous Integration/Delivery**: GitHub Actions (automated testing and image builds)
+- **Orchestration**: Kubernetes (raw manifests for Deployment & Service)
+- **Package Management**: Helm (templated chart for configurable deployment)
+- **Web Assets**: HTML & CSS (static pages under `static/` directory)
 
 
